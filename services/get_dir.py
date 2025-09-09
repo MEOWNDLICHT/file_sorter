@@ -5,10 +5,7 @@ from pathlib import Path
 NEWLINE = "-----------------------------------------------------------------------------------------------"
 
 def get_file_dir():
-    """ Asks the users for file path/directory to start the sorting process. 
-    
-        Returns:
-            str: the file directory to be sorted."""
+    """ Asks the users for file path/directory to start the sorting process. """
     print(NEWLINE)
     print(f"The current working directory is: '{Path.cwd()}'\n")
 
