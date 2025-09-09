@@ -1,8 +1,10 @@
 """ run the program here. """
 
+from presentation import main_display
+
 
 def run_sorter():
-    pass
+    main_display()
 
 
 if __name__ == '__main__':
