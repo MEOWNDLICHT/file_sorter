@@ -1,7 +1,7 @@
 """ handles display and CLI-based interactions. """
 
 from pathlib import Path
-from services import get_file_dir, sort_file
+from services import get_file_dir, sort_files
 
 
 def greet():
@@ -20,5 +20,5 @@ def how_to_use():
 def main_display():
     greet()
     how_to_use()
-    get_file_dir()
-    sort_file()
+    file_dir = get_file_dir()
+    sort_files(file_dir)
