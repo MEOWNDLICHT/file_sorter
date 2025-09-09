@@ -19,7 +19,7 @@ After running main.py, you will be prompted to enter the file directory you want
 
 ## Sorting pattern
 
-Below is the sorting pattern used in making the program work.    
+Below are the sorting pattern used in making the program work.    
 
 Documents -->  ".pdf", ".doc", ".docx", ".xls", ".xlsx", ".ppt", ".pptx", ".txt", ".rtf", ".odt", ".csv", ".md", ".epub", ".tex"  
 
