@@ -1,13 +1,13 @@
-# File-based Sorter  
+# File Type-based Sorter  
 ---
 
-This program aims to provide a way to sort file directories based on file types. The sorting pattern will be based off of Documents, Pictures, Videos, Music, Archives, and Miscellaneous files.  
+This program aims to provide a way to sort file directories based on file types. The sorting pattern will be based off of the different file extensions of file types such as documents, pictures, videos, music, achives, and miscellaneous files.  
 
 ---
 
 ## Use case  
 
-This program should only be used for simple sorting processes. I strongly advise the use of this program for more serious tasks as the program may not be suited for such uses.  
+This program should only be used for simple sorting tasks. I strongly advise the use of this program for more serious and formal purposes. Be cautious.
 
 ---
 
@@ -19,13 +19,19 @@ After running main.py, you will be prompted to enter the file directory you want
 
 ## Sorting pattern
 
-Below is the sorting pattern used in making the program work.  
-Documents - ...  
-Pictures - ...  
-Videos - ...  
-Music - ...  
-Archives - ...  
-Miscellaneous - everything else that the pattern wasn't able to recognize.  
+Below is the sorting pattern used in making the program work.    
+
+Documents -->  ".pdf", ".doc", ".docx", ".xls", ".xlsx", ".ppt", ".pptx", ".txt", ".rtf", ".odt", ".csv", ".md", ".epub", ".tex"  
+
+Pictures --> ".jpg", ".jpeg", ".png", ".gif", ".bmp", ".tiff", ".webp", ".svg", ".ico", ".heic", ".raw"  
+
+Videos --> ".mp4", ".mkv", ".mov", ".avi", ".flv", ".wmv", ".webm", ".mpeg", ".mpg", ".3gp", ".m4v"   
+
+Music --> ".mp3", ".wav", ".aac", ".flac", ".ogg", ".wma", ".m4a", ".alac", ".aiff", ".amr"  
+
+Archives --> ".zip", ".rar", ".7z", ".tar", ".gz", ".bz2", ".xz", ".iso", ".cab", ".dmg", ".tgz", ".z"  
+
+Miscellaneous --> Everything else that the pattern wasn't able to recognize.  
 
 ---
 
