@@ -1,14 +1,17 @@
-""" asks the user for file directory. """
+""" Asks the user for file directory. """
 
 from pathlib import Path
+import time
+
 
 NEWLINE = "-----------------------------------------------------------------------------------------------"
+
 
 def get_file_dir():
     """ Asks the users for file path/directory to start the sorting process. """
     print(NEWLINE)
-    print(f"The current working directory is: '{Path.cwd()}'\n")
-
+    print(f"\nThe current working directory is: '{Path.cwd()}'\n")
+    
     while True:
         file_dir = str(input("Enter the file directory here -> "))
 
@@ -22,5 +25,7 @@ def get_file_dir():
             print(f"\nPath '{file_dir}' do not exist.\n")
             continue
 
-        print("Path found!")
+        print("\nPath found!")
+        print("Sorting now...\n")
+        time.sleep(1)
         return Path(file_dir)
