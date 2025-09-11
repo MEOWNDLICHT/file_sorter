@@ -1,19 +1,19 @@
 # File Type-based Sorter  
 ---
 
-This program aims to provide a way to sort file directories based on file types. The sorting pattern will be based off of the different file extensions of file types such as documents, pictures, videos, music, achives, and miscellaneous files.  
+This program aims to provide a way to sort directories based on various file types. The sorting pattern will be based off of different file extensions from varying categories such as documents, pictures, videos, music, achives, and miscellaneous files.
 
 ---
 
 ## Use case  
 
-This program should only be used for simple sorting tasks. I strongly advise the use of this program for more serious and formal purposes. Be cautious.
+This program should only be used for simple sorting tasks. I strongly do not advise the use of this program for more serious and formal purposes. Be cautious.
 
 ---
 
 ## How to use
 
-After running main.py, you will be prompted to enter the file directory you want to sort. Enter the directory and watch as the program sort everything out. That's about it.  
+After running main.py, you will be prompted to enter the file directory you want to sort. Enter the FULL directory and watch as the program sort everything out. That's about it.  
 
 ---
 
