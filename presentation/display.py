@@ -1,11 +1,14 @@
-""" handles display and CLI-based interactions. """
+""" Handles display and CLI-based interactions. """
 
 from pathlib import Path
-from services import get_file_dir, sort_files
+from services import get_file_dir, main_sorter
+import sys
 
+NEWLINE = "-----------------------------------------------------------------------------------------------"
 
 def greet():
     """ Greets the user when the program starts. """
+    print(NEWLINE)
     print('\nWelcome, user!')
     print('This program aims to provide basic file sorting service according to file type.')
 
@@ -20,5 +23,6 @@ def how_to_use():
 def main_display():
     greet()
     how_to_use()
-    file_dir = get_file_dir()
-    sort_files(file_dir)
+    get_dir = get_file_dir()
+    main_sorter(get_dir)
+    sys.exit(2)
