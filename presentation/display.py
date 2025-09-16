@@ -1,6 +1,5 @@
 """ Handles display and CLI-based interactions. """
 
-from pathlib import Path
 from services import get_file_dir, main_sorter
 import sys
 
