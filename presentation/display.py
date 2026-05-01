@@ -1,15 +1,14 @@
 """ Handles display and CLI-based interactions. """
 
-from services import get_file_dir, main_sorter
+from services import get_file_dir, main_sorter, NEWLINE
 import sys
 
-NEWLINE = "-----------------------------------------------------------------------------------------------"
 
 def greet():
     """ Greets the user when the program starts. """
     print(NEWLINE)
     print('\nWelcome, user!')
-    print('This program aims to provide basic file sorting service according to file type.')
+    print('This program aims to provide basic file sorting service according to file type.\n')
 
 
 def how_to_use():
@@ -23,5 +22,5 @@ def main_display():
     greet()
     how_to_use()
     get_dir = get_file_dir()
-    main_sorter(get_dir)
-    sys.exit(2)
+    main_sorter(get_dir)    
+    sys.exit(3)

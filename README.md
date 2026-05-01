@@ -7,10 +7,10 @@ After running main.py, you will be prompted to enter the file directory you want
 
 
 ## Sorting pattern
-Below are the various folder categories and the respective file extensions used in categorising them...
+Below are the various folder categories and the respective file extensions used in categorising them...   
 
 
-Documents -->  ".pdf", ".doc", ".docx", ".xls", ".xlsx", ".ppt", ".pptx", ".txt", ".rtf", ".odt", ".csv", ".md", ".epub", ".tex"  
+Documents -->  ".pdf", ".doc", ".docx", ".xls", ".xlsx", ".ppt", ".pptx", ".txt", ".rtf", ".odt", ".csv", ".md", ".epub", ".tex"
 
 Pictures --> ".jpg", ".jpeg", ".png", ".gif", ".bmp", ".tiff", ".webp", ".svg", ".ico", ".heic", ".raw"  
 

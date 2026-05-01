@@ -3,7 +3,6 @@
 from pathlib import Path
 import shutil
 
-NEWLINE = "-----------------------------------------------------------------------------------------------"
 
 # sorting pattern (dict format)
 FILE_TYPES = {
@@ -31,7 +30,7 @@ def categorize_file(file: str):
     return 'Miscellaneous'
 
 
-def sort_file(file_dir:Path):
+def sort_file(file_dir: Path):
     """ Sorting logic """
     # scans the directory and categorizes each file
     for file in file_dir.iterdir():
@@ -47,7 +46,6 @@ def sort_file(file_dir:Path):
             shutil.move(str(file), str(sorting_folder / file.name))
     print('Sorting Done!')
     print('Exiting the program...\n')
-    print(NEWLINE)
 
 
 def main_sorter(file_dir: Path):
